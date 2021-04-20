@@ -1,8 +1,60 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
+header {
+  background-color: white;
+  box-shadow: 0px 1px 9px #ccc;
+}
 
-  header {
-      background-color: black;
-      color: white;
-  }
+body {
+  background: #efefef;
+}
+
+#dropdownbutton {
+  background: none;
+  outline: 0;
+  border: none;
+}
+
+.main-container {
+  padding-top: 200px;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 51px;
+  color: #fb3d06;
+  font-weight: 400;
+}
+
+h2,
+h6,
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+h3,
+h1 {
+  font-family: "cocogoose", sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "cocogoose", sans-serif;
+  background-image: linear-gradient(to right, #af0201, #f24d13);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h6,
+.main-title h4 {
+  color: #828282;
+}
+
+.main-title h6 {
+  border: 7px solid white;
+}
+
+.main-title h3 {
+    font-size: 35px;
+    color: #565656;
+}
+
