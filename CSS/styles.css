@@ -2,8 +2,7 @@
     box-sizing: content-box;
   }
 
-  body {
-      width: 100%;
-      max-width: 90%;
-      margin: auto;
+  header {
+      background-color: black;
+      color: white;
   }
