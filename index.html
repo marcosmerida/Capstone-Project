@@ -3,36 +3,34 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Capstone Project</title>
   <!--BOOTSTRAP LINKS-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <!--CSS LINK-->
   <link rel="stylesheet" href="CSS/styles.css" />
   <link rel="stylesheet" href="CSS/fonts.css">
-  <!--MEDIA QUERIES LINK-->
-  <link rel="stylesheet" media="only screen and (max-width: 768px)" href="medium.css">
 </head>
 
 <body>
   <header class="fixed-top">
     <nav class="navbar">
-      <div class="dropdown d-md-none d-sm-flex ml-2">
+      <div class="dropdown d-flex d-lg-none d-md-none">
         <button class="btn btn-success dropdown-toggle" type="button" id="dropdownbutton" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="true">
-          <img src="/resources/hamburguer.svg" width="50" height="50" alt="menu">
+          <i class="fas fa-bars text-dark"></i>
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownbutton">
-          <a class="dropdown-item" href="#">About</a>
-          <a class="dropdown-item" href="#">Program</a>
-          <a class="dropdown-item" href="#">Join</a>
-          <a class="dropdown-item" href="#">Sponsor</a>
-          <a class="dropdown-item" href="#">News</a>
-          <a class="dropdown-item" href="#">CC Campaign</a>
+          <a href="" class="dropdown-item">About</a>
+          <a href="" class="dropdown-item">Program</a>
+          <a href="" class="dropdown-item">Join</a>
+          <a href="" class="dropdown-item">Sponsor</a>
+          <a href="" class="dropdown-item">News</a>
+          <a href="" class="dropdown-item">CC Campaign</a>
         </div>
       </div>
-
       <div class="container d-none d-sm-none d-md-flex">
         <a class="navbar-brand col-md-3" href="index.html">
           <img src="resources/logo.png" width="120" height="50" alt="">
@@ -43,30 +41,95 @@
         <a class="" href="#">Sponsor</a>
         <a class="" href="#">News</a>
         <a class="" href="#">CC Campaign</a>
+      </div>
     </nav>
   </header>
-
-  <div class="container w-100 main-container">
-    <section class="main-title w-100">
-      <h2 class="">"Hello! Sharing world"</h2>
-      <h1>CREATIVE COMMONS GLOBAL SUMMIT<br>2015</h1>
-      <h6 class="p-4 mt-md-2">A joyful celebration believing in the value of openness and sharing, creating <br> a positive change with people
-        from over 80 countries is taking place in October, in Korea</h6>
-      <h3 class="mt-md-5">2015.10.15(THU) ~ 16(FRI)</h3>
-      <h4>@ National Museum of Korea, Art Center Nabi and more</h4>
+  <!--END OF HEADER-->
+  <!--START OF MAIN CONTENT-->
+  <main>
+    <!--FIRST SECTION-->
+    <section class="mx-3" id="first-section">
+      <h3 class="text-weight-normal" id="subtitle1">Hello! Sharing world</h3>
+      <h1 class="text-weight-bold text-uppercase" id="title1">Creative commons global summit 2015</h1>
+      <h6 class="p-3" id="subtitle2">A joyful celebration believing in the value of openness and sharing, creating a positive change with people
+        from over 80 countries is taking place in October, in Korea.</h6>
+      <h2 class="text-weight-bold mt-3 text-uppercase" id="subtitle3">2015.10.15(thu) ~ 16(fri)</h2>
+      <h5 class="font-weight-bold" id="location-title">@ National Museum of Korea, Art Center Nabi and more</h5>
     </section>
-  </div>
+    <!--SECOND SECTION-->
+    <section class="container-fluid bg-dark bg-gradient text-center mt-5 pb-4" id="second-section">
+      <h6 class="text-light p-4">Main Program</h6>
+      <div class="program-entries mx-auto">
+        <div class="d-flex my-2 p-2 justify-content-start" id="entrie1">
+          <i class="fas fa-book-reader text-light m-auto"></i>
+          <h6 class="m-auto" id="title-entry">Lecture</h6>
+          <h6 class="text-light m-auto w-50" id="text-entry">Listen to the speakers from various conuntries about the messeges of sharing and
+            opening.</h6>
+        </div>
+        <div class="d-flex my-2 p-2 justify-content-start" id="entrie1">
+          <i class="fas fa-palette text-light m-auto"></i>
+          <h6 class="m-auto" id="title-entry">Exhibition</h6>
+          <h6 class="text-light m-auto w-50" id="text-entry">Appreciate various creations applying CC license of artists, organized from Art Center
+            Nabi.</h6>
+        </div>
+        <div class="d-flex my-2 p-2 justify-content-start" id="entrie1">
+          <i class="fas fa-comments text-light m-auto"></i></i>
+          <h6 class="m-auto" id="title-entry">Forum</h6>
+          <h6 class="text-light m-auto w-50" id="text-entry">Have the time to share your thoughts and opinions with exerts for each topic.</h6>
+        </div>
+        <div class="d-flex my-2 p-2 justify-content-start" id="entrie1">
+          <i class="fas fa-code-branch text-light m-auto"></i>
+          <h6 class="m-auto" id="title-entry">Workshop</h6>
+          <h6 class="text-light m-auto w-50" id="text-entry">Try creating your own work using open source license rather than just watching.</h6>
+        </div>
+        <div class="d-flex my-2 p-2 justify-content-start" id="entrie1">
+          <i class="fas fa-network-wired text-light m-auto"></i>
+          <h6 class="m-auto" id="title-entry">CC Ignite</h6>
+          <h6 class="text-light m-auto w-50" id="text-entry">Get opportunities to network with CC affiliates around the world, also after the
+            summit.</h6>
+        </div>
+        <button type="button" class="btn-lg btn-block mt-4">Join CC Global Summit 2015</button>
+      </div>
+    </section>
+    <!--THIRD SECTION-->
+    <section class="container text-center mt-4" id="third-section">
+      <h6>Featured Speakers</h6>
+      <hr class="w-25">
+      <div class="" id="persons">
+        <div id="speaker1 m-0">
+          <img src="/resources/speaker1.png" alt="">
+            <span>Yochai Benkler</span><br>
+            <span>Berkman Professor of Entrepeneurial Legal Studies at Harvard Law School</span><br>
+            <hr class="w-25">
+            <span>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</span>
+        </div>
+        <div id="speaker2 m-0">
+          <img src="/resources/speaker2.png" alt="">
+            <span>Yochai Benkler</span><br>
+            <span>Berkman Professor of Entrepeneurial Legal Studies at Harvard Law School</span><br>
+            <hr class="w-25">
+            <span>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</span>
+        </div>
+      </div>
+      <button class="btn-block btn-lg bg-transparent" type="button">More</button>
+    </section>
+  </main>
+  <!--END OF MAIN CONTENT-->
+
 
   <!--JAVASCRIPT FILES -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <!--BOOTSTRAP JS-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
     crossorigin="anonymous"></script>
+  <!--FONT AWESOME JS-->
+  <script src="https://kit.fontawesome.com/6ceb7cadf7.js" crossorigin="anonymous"></script>
   <!--JAVASCRIPT FILES-->
 </body>
 
