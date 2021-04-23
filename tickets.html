@@ -18,7 +18,7 @@
     <header class="fixed-top">
         <nav class="navbar">
             <div class="dropdown d-flex d-md-none">
-                <button class="btn btn-success dropdown-toggle" type="button" id="dropdownbutton" data-toggle="dropdown"
+                <button class="btn btn-success dropdown-toggle dropdownbutton" type="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="true">
                     <i class="fas fa-bars text-dark"></i>
                 </button>
@@ -32,7 +32,7 @@
                     <img src="resources/logo.png" width="120" height="50" alt="">
                 </a>
                 <div class="justify-content-end d-flex">
-                    <a class="mx-5" id="about" href="index.html">Home</a>
+                    <a class="mx-5 about" href="index.html">Home</a>
                     <a class="" href="about.html">About</a>
                 </div>
             </div>
@@ -42,105 +42,105 @@
     <!--START OF MAIN CONTENT-->
     <main>
         <!-- FIRST SECTION -->
-        <section class="container text-center" id="first-section">
-            <h5 class="font-weight-bold" id="second-section-title">Select Tickets</h5>
+        <section class="container text-center first-section">
+            <h5 class="font-weight-bold second-section-title">Select Tickets</h5>
             <hr class="w-25 bg-danger">
             <h6 class="p-2 border rounded-pill my-4"><span class="text-danger">▪ STEP 1</span><span class="text-left"> Please
                     complete your registration.</span></h6>
             <form action="#" class="d-block">
-                <div id="registration" class="p-3 align">
+                <div class="registration p-3 align">
                     <div class="d-block d-md-flex my-2">
-                        <label for="first-name" class="font-weight-bold mr-2" id="label-name">First Name:</label>
-                        <input type="text" id="name" required>
+                        <label for="first-name" class="font-weight-bold mr-2 label-name">First Name:</label>
+                        <input type="text" class="name" required>
                     </div>
                     <div class="d-block d-md-flex my-2">
-                        <label for="first-name" class="font-weight-bold mr-2" id="label-name">Last Name:</label>
-                        <input type="text" id="name" required>
+                        <label for="first-name" class="font-weight-bold mr-2 label-name">Last Name:</label>
+                        <input type="text" class="name" required>
                     </div>
                     <div class="d-block d-md-flex my-2">
-                        <label for="first-name" class="font-weight-bold mr-2" id="label-name">email:</label>
-                        <input type="email" id="name" required>
+                        <label for="first-name" class="font-weight-bold mr-2 label-name">email:</label>
+                        <input type="email" class="name" required>
                     </div>
                     <div class="d-block d-md-flex my-2">
-                        <label for="first-name" class="font-weight-bold mr-2" id="label-name">Adress:</label>
-                        <input type="text" id="name" required>
+                        <label for="first-name" class="font-weight-bold mr-2 label-name">Adress:</label>
+                        <input type="text" class="name" required>
                     </div>
                     <div class="d-block d-md-flex my-2">
-                        <label for="first-name" class="font-weight-bold mr-2" id="label-name">Phone Number:</label>
-                        <input type="number" id="name" required>
+                        <label for="first-name" class="font-weight-bold mr-2 label-name">Phone Number:</label>
+                        <input type="number" class="name" required>
                     </div>
                 </div>
 
-                <div id="separator" class="my-5">
+                <div class="my-5 separator">
                     <i class="fas fa-chevron-down"></i>
                 </div>
-                <h5 class="font-weight-bold" id="second-section-title">Select Your Lunch</h5>
+                <h5 class="font-weight-bold second-section-title">Select Your Lunch</h5>
                 <hr class="w-25 bg-danger">
                 <h6 class="p-2 border rounded-pill my-4"><span class="text-danger">▪ STEP 2</span><span class="text-left">
                         Please select your menu.</span></h6>
 
-                <div id="tables" class="d-flex row justify-content-center">
-                    <table id="lunch" class="border col-5 mr-0">
+                <div class="d-flex row justify-content-center tables">
+                    <table class="lunch border col-5 mr-0">
                         <tr>
                             <th class="bg-info p-2 text-light">Food</th>
                         </tr>
                         <tr>
                             <td class="d-block">
                                 <div class="d-block border">
-                                    <input type="radio" id="menu1" name="menu1" value="menu1">
+                                    <input type="radio" class="menu1" name="menu1" value="menu1">
                                     <label for="menu1">Menu 1</label>
                                 </div>
                                 <div class="d-block border">
-                                    <input type="radio" id="menu2" name="menu1" value="menu2">
+                                    <input type="radio" class="menu2" name="menu1" value="menu2">
                                     <label for="menu2">Menu 2</label>
                                 </div>
                                 <div class="d-block border">
-                                    <input type="radio" id="menu3" name="menu1" value="menu3">
+                                    <input type="radio" class="menu3" name="menu1" value="menu3">
                                     <label for="menu3">Menu 3</label>
                                 </div>
                                 <div class="d-block border">
-                                    <input type="radio" id="menu4" name="menu1" value="menu4">
+                                    <input type="radio" class="menu4" name="menu1" value="menu4">
                                     <label for="menu4">Menu 5</label>
                                 </div>
                                 <div class="d-block border">
-                                    <input type="radio" id="menu5" name="menu1" value="menu5">
+                                    <input type="radio" class="menu5" name="menu1" value="menu5">
                                     <label for="menu5">Menu 5</label>
                                 </div>
                             </td>
 
                         </tr>
                     </table>
-                    <table id="lunch2" class="border col-5">
+                    <table class="lunch2 border col-5">
                         <tr>
                             <th class="bg-info p-2 text-light">Drink</th>
                         </tr>
                         <tr>
                             <td class="d-block">
                                 <div class="d-block border">
-                                    <input type="radio" id="menu1" name="menu2" value="menu1">
+                                    <input type="radio" class="menu1" name="menu2" value="menu1">
                                     <label for="menu1">Menu 1</label>
                                 </div>
                                 <div class="d-block border">
-                                    <input type="radio" id="menu2" name="menu2" value="menu2">
+                                    <input type="radio" class="menu2" name="menu2" value="menu2">
                                     <label for="menu2">Menu 2</label>
                                 </div>
                                 <div class="d-block border">
-                                    <input type="radio" id="menu3" name="menu2" value="menu3">
+                                    <input type="radio" class="menu3" name="menu2" value="menu3">
                                     <label for="menu3">Menu 3</label>
                                 </div>
                                 <div class="d-block border">
-                                    <input type="radio" id="menu4" name="menu2" value="menu4">
+                                    <input type="radio" class="menu4" name="menu2" value="menu4">
                                     <label for="menu4">Menu 5</label>
                                 </div>
                                 <div class="d-block border">
-                                    <input type="radio" id="menu5" name="menu2" value="menu5">
+                                    <input type="radio" class="menu5" name="menu2" value="menu5">
                                     <label for="menu5">Menu 5</label>
                                 </div>
                             </td>
                         </tr>
                     </table>
                 </div>
-                <button type="submit" class="px-4 py-2 register-btn fw-bold text-light my-5" id="submit-button">Submit</button>
+                <button type="submit" class="submit-button px-4 py-2 register-btn fw-bold text-light my-5">Submit</button>
             </form>
         </section>
     </main>
