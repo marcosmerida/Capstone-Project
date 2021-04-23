@@ -28,9 +28,6 @@ body {
 #subtitle1 {
   font-family: Lato, sans-serif;
   color: #ff4f38;
-}
-
-#subtitle1 {
   font-size: 6vw;
 }
 
@@ -49,7 +46,7 @@ body {
 }
 
 #subtitle3 {
-  font-family: "cocogoose";
+  font-family: "cocogoose", sans-serif;
   font-size: 6vw;
   color: #575757;
 }
@@ -62,7 +59,7 @@ body {
 
 #title1 {
   font-size: 8vw;
-  font-family: "cocogoose";
+  font-family: "cocogoose", sans-serif;
   background-image: linear-gradient(to right, #a80c0a, #ff4f38);
   color: transparent;
   -webkit-background-clip: text;
@@ -89,7 +86,8 @@ body {
 }
 
 .img1-container {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(214, 105, 85, 0.75),
       rgba(214, 105, 85, 0.75)
     ),
@@ -100,7 +98,8 @@ body {
 }
 
 .img2-container {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(214, 105, 85, 0.75),
       rgba(214, 105, 85, 0.75)
     ),
@@ -276,7 +275,8 @@ body {
   }
 
   .img1-container {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(214, 105, 85, 0.75),
         rgba(214, 105, 85, 0.75)
       ),
@@ -288,7 +288,8 @@ body {
   }
 
   .img2-container {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(214, 105, 85, 0.75),
         rgba(214, 105, 85, 0.75)
       ),
