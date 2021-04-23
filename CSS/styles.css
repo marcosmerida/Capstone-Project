@@ -42,6 +42,12 @@ body {
   line-height: 4vw;
 }
 
+#subtitle03 {
+  font-family: Lato, sans-serif;
+  font-size: 3.3vw;
+  line-height: 4vw;
+}
+
 #subtitle3 {
   font-family: "cocogoose";
   font-size: 6vw;
@@ -83,16 +89,22 @@ body {
 }
 
 .img1-container {
-  background-image: linear-gradient(rgba(214, 105, 85, 0.75), rgba(214, 105, 85, 0.75)),
-  url(/resources/aboutimg1.jpg);
+  background-image: linear-gradient(
+      rgba(214, 105, 85, 0.75),
+      rgba(214, 105, 85, 0.75)
+    ),
+    url(/resources/aboutimg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vw;
 }
 
 .img2-container {
-  background-image: linear-gradient(rgba(214, 105, 85, 0.75), rgba(214, 105, 85, 0.75)),
-  url(/resources/aboutimg2.jpg);
+  background-image: linear-gradient(
+      rgba(214, 105, 85, 0.75),
+      rgba(214, 105, 85, 0.75)
+    ),
+    url(/resources/aboutimg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vw;
@@ -141,9 +153,9 @@ body {
 
 #registration {
   border: silver 5px solid;
-    border-width: 5px 5px 5px 5px;
-    border-image-source: url(/resources/border.jpg);
-    border-image-slice: 5 1 5 5;
+  border-width: 5px 5px 5px 5px;
+  border-image-source: url(/resources/border.jpg);
+  border-image-slice: 5 1 5 5;
 }
 
 #submit-button {
@@ -157,25 +169,25 @@ body {
 /* MEDIAQUERIES */
 
 @media (min-width: 768px) {
-a {
-  text-decoration: none;
-  font-family: Lato, sans-serif;
-  color: black;
-  font-size: 1.2vw;
-  font-weight: bold;
-  transition: all 0.2s;
-}
+  a {
+    text-decoration: none;
+    font-family: Lato, sans-serif;
+    color: black;
+    font-size: 1.2vw;
+    font-weight: bold;
+    transition: all 0.2s;
+  }
 
-#logo-about {
-  width: 35vw;
-  height: 10vw;
-}
+  #logo-about {
+    width: 35vw;
+    height: 10vw;
+  }
 
-a:hover {
-  color: #555;
-  text-decoration: none;
-  font-size: 1.3vw;
-}
+  a:hover {
+    color: #555;
+    text-decoration: none;
+    font-size: 1.3vw;
+  }
 
   main {
     padding-top: 50px;
@@ -186,13 +198,19 @@ a:hover {
     text-align: right;
   }
 
+  #subtitle03 {
+    font-family: Lato, sans-serif;
+    font-size: 1.5vw;
+    line-height: 4vw;
+  }
+
   #registration {
     border: silver 5px solid;
     border-width: 5px 5px 5px 5px;
     border-image-source: url(/resources/border.jpg);
     border-image-slice: 5 1 5 5;
   }
-  
+
   #subtitle1,
   #subtitle3 {
     font-size: 3vw;
@@ -233,70 +251,75 @@ a:hover {
   }
 
   #main-program-text {
-  font-size: 2vw;
+    font-size: 2vw;
   }
 
-.fa-book-reader,
-.fa-palette,
-.fa-comments,
-.fa-code-branch,
-.fa-network-wired
-{
-  font-size: 5vw;
-}
+  .fa-book-reader,
+  .fa-palette,
+  .fa-comments,
+  .fa-code-branch,
+  .fa-network-wired {
+    font-size: 5vw;
+  }
 
-#title-entry {
-  font-size: 1.5vw;
-}
+  #title-entry {
+    font-size: 1.5vw;
+  }
 
-#text-entry {
-  font-size: 1.2vw;
-}
+  #text-entry {
+    font-size: 1.2vw;
+  }
 
-#second-section-title {
-  font-family: Lato, sans-serif;
-  font-size: 1.7vw;
-}
+  #second-section-title {
+    font-family: Lato, sans-serif;
+    font-size: 1.7vw;
+  }
 
-.img1-container {
-  background-image: linear-gradient(rgba(214, 105, 85, 0.75), rgba(214, 105, 85, 0.75)),
-  url(/resources/aboutimg1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 20vw;
-  width: 40vw;
-}
+  .img1-container {
+    background-image: linear-gradient(
+        rgba(214, 105, 85, 0.75),
+        rgba(214, 105, 85, 0.75)
+      ),
+      url(/resources/aboutimg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vw;
+    width: 40vw;
+  }
 
-.img2-container {
-  background-image: linear-gradient(rgba(214, 105, 85, 0.75), rgba(214, 105, 85, 0.75)),
-  url(/resources/aboutimg2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 20vw;
-  width: 40vw;
-}
+  .img2-container {
+    background-image: linear-gradient(
+        rgba(214, 105, 85, 0.75),
+        rgba(214, 105, 85, 0.75)
+      ),
+      url(/resources/aboutimg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vw;
+    width: 40vw;
+  }
 
-/* FOOTER */
+  /* FOOTER */
 
-#footer-program-text {
-  text-decoration: underline white;
-}
+  #footer-program-text {
+    text-decoration: underline white;
+  }
 
-#persons img {
-  height: 200px;
-  width: 50px;
-}
+  #persons img {
+    height: 200px;
+    width: 50px;
+  }
 
-#text-speaker {
-  font-size: 1.2vw;
-}
+  #text-speaker {
+    font-size: 1.2vw;
+  }
 
-#logo-footer {
-  width: 10vw;
-}
+  #logo-footer {
+    width: 10vw;
+  }
 
-#logo2-footer {
-  width: 10vw;
-  height: 3vw;
-}
+  #logo2-footer {
+    width: 10vw;
+    height: 3vw;
+  }
 }
