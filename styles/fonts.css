@@ -5,3 +5,8 @@
   font-family: "cocogoose";
   src: url(/resources/Cocogoose_trial.otf);
 }
+
+@font-face {
+  font-family: "FilsonPro-Black";
+  src: url(/resources/FilsonPro-Black.woff2);
+}
