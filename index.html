@@ -16,6 +16,13 @@
 
 <body>
   <header class="fixed-top">
+    <div class="container-fluid bg-dark d-none d-md-flex justify-content-end p-2">
+      <a href=""><i class="fab fa-facebook-f text-light mx-1"></i></a>
+      <a href=""><i class="fab fa-twitter text-light mx-1"></i></a>
+      <h6 class="text-light mx-4 my-auto">English</h6>
+      <h6 class="text-light mx-4 my-auto">My page</h6>
+       <h6 class="text-light mx-4 my-auto">Logout</h6>
+    </div>
     <nav class="navbar">
       <div class="dropdown d-flex d-md-none">
         <button class="btn btn-success dropdown-toggle" id="dropdownbutton" type="button" data-toggle="dropdown"
@@ -23,17 +30,25 @@
           <i class="fas fa-bars text-dark"></i>
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownbutton">
+          <a href="index.html" class="dropdown-item">Home</a>
           <a href="about.html" class="dropdown-item">About</a>
-          <a href="tickets.html" class="dropdown-item">Tickets</a>
+          <a class="dropdown-item" href="tickets.html">Tickets</a>
+          <a class="dropdown-item" href="">Join</a>
+          <a class="dropdown-item" href="">Sponsor</a>
         </div>
       </div>
+    
       <div class="container d-none d-sm-none d-md-flex">
         <a class="navbar-brand col-md-3" href="index.html">
           <img src="resources/logo.png" width="120" height="50" alt="">
         </a>
         <div class="justify-content-end d-flex">
-        <a class="about mx-5" href="about.html">About</a>
-        <a class="" href="tickets.html">Tickets</a>
+                    <a class="about mx-3 nav-text" href="about.html">About</a>
+                    <a class="mx-4 nav-text" href="tickets.html">Tickets</a>
+                    <a class="mx-4 nav-text" href="">Join</a>
+                    <a class="mx-4 nav-text" href="">Sponsor</a>
+                    <a class="mx-4 nav-text" href="">News</a>
+                    <a class="mx-4 text-danger border-danger nav-text" href="">CC Campaign</a>
       </div>
       </div>
     </nav>

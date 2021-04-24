@@ -16,6 +16,13 @@
 
 <body>
     <header class="fixed-top">
+        <div class="container-fluid bg-dark d-none d-md-flex justify-content-end p-2">
+            <a href=""><i class="fab fa-facebook-f text-light mx-1"></i></a>
+            <a href=""><i class="fab fa-twitter text-light mx-1"></i></a>
+            <h6 class="text-light mx-4 my-auto">English</h6>
+            <h6 class="text-light mx-4 my-auto">My page</h6>
+            <h6 class="text-light mx-4 my-auto">Logout</h6>
+        </div>
         <nav class="navbar">
             <div class="dropdown d-flex d-md-none">
                 <button class="btn btn-success dropdown-toggle" id="dropdownbutton" type="button" data-toggle="dropdown"
@@ -25,15 +32,22 @@
                 <div class="dropdown-menu" aria-labelledby="dropdownbutton">
                     <a href="index.html" class="dropdown-item">Home</a>
                     <a href="about.html" class="dropdown-item">About</a>
+                    <a class="dropdown-item" href="tickets.html">Tickets</a>
+                    <a class="dropdown-item" href="">Join</a>
+                    <a class="dropdown-item" href="">Sponsor</a>
                 </div>
             </div>
             <div class="container d-none d-sm-none d-md-flex">
                 <a class="navbar-brand col-md-3" href="index.html">
                     <img src="resources/logo.png" width="120" height="50" alt="">
                 </a>
-                <div class="justify-content-end d-flex">
-                    <a class="mx-5 about" href="index.html">Home</a>
-                    <a class="" href="about.html">About</a>
+                <div class="d-flex">
+                    <a class="about mx-3 nav-text" href="about.html">About</a>
+                    <a class="mx-4 nav-text" href="tickets.html">Tickets</a>
+                    <a class="mx-4 nav-text" href="">Join</a>
+                    <a class="mx-4 nav-text" href="">Sponsor</a>
+                    <a class="mx-4 nav-text" href="">News</a>
+                    <a class="mx-4 text-danger border-danger nav-text" href="">CC Campaign</a>
                 </div>
             </div>
         </nav>
@@ -45,7 +59,8 @@
         <section class="container text-center first-section">
             <h5 class="font-weight-bold second-section-title">Select Tickets</h5>
             <hr class="w-25 bg-danger">
-            <h6 class="p-2 border rounded-pill my-4"><span class="text-danger">▪ STEP 1</span><span class="text-left"> Please
+            <h6 class="p-2 border rounded-pill my-4"><span class="text-danger">▪ STEP 1</span><span class="text-left">
+                    Please
                     complete your registration.</span></h6>
             <form action="#" class="d-block">
                 <div class="registration p-3 align">
@@ -76,7 +91,8 @@
                 </div>
                 <h5 class="font-weight-bold second-section-title">Select Your Lunch</h5>
                 <hr class="w-25 bg-danger">
-                <h6 class="p-2 border rounded-pill my-4"><span class="text-danger">▪ STEP 2</span><span class="text-left">
+                <h6 class="p-2 border rounded-pill my-4"><span class="text-danger">▪ STEP 2</span><span
+                        class="text-left">
                         Please select your menu.</span></h6>
 
                 <div class="d-flex row justify-content-center tables">
@@ -140,7 +156,8 @@
                         </tr>
                     </table>
                 </div>
-                <button type="submit" class="submit-button px-4 py-2 register-btn fw-bold text-light my-5">Submit</button>
+                <button type="submit"
+                    class="submit-button px-4 py-2 register-btn fw-bold text-light my-5">Submit</button>
             </form>
         </section>
     </main>
