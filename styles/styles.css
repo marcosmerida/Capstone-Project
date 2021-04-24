@@ -44,7 +44,7 @@ body {
 }
 
 .subtitle3 {
-  font-family: "cocogoose", sans-serif;
+  font-family: "cocogoose", "FilsonPro-Black";
   font-size: 6vw;
   color: #575757;
 }
@@ -57,7 +57,7 @@ body {
 
 .title1 {
   font-size: 8vw;
-  font-family: "cocogoose", sans-serif;
+  font-family: "cocogoose", "FilsonPro-Black";
   background-image: linear-gradient(to right, #a80c0a, #ff4f38);
   color: transparent;
   -webkit-background-clip: text;
@@ -160,7 +160,6 @@ body {
   outline: none;
   border: none;
 }
-
 
 .logo2-footer {
   width: 25vw;
