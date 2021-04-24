@@ -284,12 +284,10 @@ body {
   .img1-container {
     background-image:
       linear-gradient(
-        rgba(214, 105, 85, 0.75),
-        rgba(214, 105, 85, 0.75)
+        rgba(214, 105, 85, 0.3),
+        rgba(214, 105, 85, 0.3)
       ),
       url(/resources/aboutimg1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 20vw;
     width: 40vw;
   }
@@ -297,12 +295,10 @@ body {
   .img2-container {
     background-image:
       linear-gradient(
-        rgba(214, 105, 85, 0.75),
-        rgba(214, 105, 85, 0.75)
+        rgba(214, 105, 85, 0.3),
+        rgba(214, 105, 85, 0.3)
       ),
       url(/resources/aboutimg2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 20vw;
     width: 40vw;
   }
