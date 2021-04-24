@@ -20,13 +20,8 @@ In this case i tried to follow all the guidelines given, including typographies,
 
 ## Instalation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/marcosmerida/New-York-Times-article-Project.git
-   ```
-2. Make sure that the images inside the /resources file are linked in the index.html
-
-3. Link the files style.css and fonts.css into the HTML file.
+1. Download de files
+![screenshot](.resources/screenshot3.png)  
 
 ## Authors
 
