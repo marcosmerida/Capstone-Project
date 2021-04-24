@@ -21,7 +21,16 @@ In this case i tried to follow all the guidelines given, including typographies,
 ## Instalation
 
 1. Download de files
-![screenshot](.resources/screenshot3.png)  
+
+![screenshot](./resources/screenshot4.png) 
+
+2. Please locate these two files that are inside of the file called "syles"
+ 
+![screenshot](./resources/screenshot6.png)
+
+3. Now please open the files index.html, about.html and tickets.html in your code editor and make sure that these files are linked in the corresponding section.
+
+![screenshot](./resources/screenshot5.png)
 
 ## Authors
 
