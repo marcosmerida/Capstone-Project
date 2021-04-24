@@ -24,7 +24,7 @@ In this case i tried to follow all the guidelines given, including typographies,
 
 ![screenshot](./resources/screenshot4.png) 
 
-2. Please locate these two files that are inside of the folder called "syles"
+2. Please locate these two files that are inside of the folder called "styles"
  
 ![screenshot](./resources/screenshot6.png)
 
