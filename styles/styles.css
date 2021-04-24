@@ -282,12 +282,7 @@ body {
   }
 
   .img1-container {
-    background-image:
-      linear-gradient(
-        rgba(214, 105, 85, 0.3),
-        rgba(214, 105, 85, 0.3)
-      ),
-      url(/resources/aboutimg1.jpg);
+    background-image: url(/resources/aboutimg1.jpg);
     height: 20vw;
     width: 40vw;
   }
