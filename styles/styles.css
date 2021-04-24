@@ -117,11 +117,11 @@ body {
   font-size: 3vw;
 }
 
-.fa-book-reader,
+.fa-exclamation-triangle,
 .fa-palette,
-.fa-comments,
-.fa-code-branch,
-.fa-network-wired {
+.fa-guitar,
+.fa-user-friends,
+.fa-sign-in-alt {
   font-size: 8vw;
 }
 
@@ -159,6 +159,12 @@ body {
   background-color: #ff4f38;
   outline: none;
   border: none;
+}
+
+
+.logo2-footer {
+  width: 25vw;
+  height: 10vw;
 }
 
 /* END OF MAIN PAGE */
@@ -255,11 +261,11 @@ body {
     font-size: 2vw;
   }
 
-  .fa-book-reader,
+  .fa-exclamation-triangle,
   .fa-palette,
-  .fa-comments,
-  .fa-code-branch,
-  .fa-network-wired {
+  .fa-guitar,
+  .fa-user-friends,
+  .fa-sign-in-alt {
     font-size: 5vw;
   }
 
@@ -309,8 +315,8 @@ body {
   }
 
   .persons img {
+    width: 200px;
     height: 200px;
-    width: 50px;
   }
 
   .text-speaker {
