@@ -83,30 +83,6 @@ body {
   font-size: 7vw;
 }
 
-.img1-container {
-  background-image:
-    linear-gradient(
-      rgba(214, 105, 85, 0.75),
-      rgba(214, 105, 85, 0.75)
-    ),
-    url(/resources/aboutimg1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vw;
-}
-
-.img2-container {
-  background-image:
-    linear-gradient(
-      rgba(214, 105, 85, 0.75),
-      rgba(214, 105, 85, 0.75)
-    ),
-    url(/resources/aboutimg2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vw;
-}
-
 .entrie1 {
   background-color: rgb(255, 255, 255, 0.2);
   text-align: justify;
