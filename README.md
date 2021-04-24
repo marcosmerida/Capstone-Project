@@ -20,11 +20,11 @@ In this case i tried to follow all the guidelines given, including typographies,
 
 ## Instalation
 
-1. Download de files
+1. Download the ZIP 
 
 ![screenshot](./resources/screenshot4.png) 
 
-2. Please locate these two files that are inside of the file called "syles"
+2. Please locate these two files that are inside of the folder called "syles"
  
 ![screenshot](./resources/screenshot6.png)
 
