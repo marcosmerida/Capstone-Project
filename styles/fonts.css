@@ -8,7 +8,8 @@
 
 @font-face {
   font-family: Filson Pro;
-  src: url(/resources/FilsonPro-Black.woff2) format("woff2"),
+  src:
+    url(/resources/FilsonPro-Black.woff2) format("woff2"),
     url(/resources/FilsonPro-Black.woff) format("woff"),
     url(/resources/FilsonPro-Black.ttf) format("truetype");
   font-weight: 900;
