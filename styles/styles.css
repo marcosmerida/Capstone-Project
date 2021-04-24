@@ -1,7 +1,5 @@
 header {
-  background-image: url(/resources/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: white;
   box-shadow: 0.1px 1px 9px #ccc;
 }
 
@@ -190,6 +188,10 @@ body {
 
   main {
     padding-top: 50px;
+  }
+
+  .nav-text {
+    font-size: 1.2vw;
   }
 
   .label-name {
