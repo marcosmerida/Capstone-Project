@@ -60,30 +60,75 @@
             <h5 class="font-weight-bold second-section-title">Select Tickets</h5>
             <hr class="w-25 bg-danger">
             <h6 class="p-2 border rounded-pill my-4"><span class="text-danger">▪ STEP 1</span><span class="text-left">
-                    Please
-                    complete your registration.</span></h6>
+                    Please select your ticket.</span></h6>
             <form action="#" class="d-block">
-                <div class="registration p-3 align">
-                    <div class="d-block d-md-flex my-2">
-                        <label for="first-name" class="font-weight-bold mr-2 label-name">First Name:</label>
-                        <input type="text" id="first-name" class="name" required>
-                    </div>
-                    <div class="d-block d-md-flex my-2">
-                        <label for="last-name" class="font-weight-bold mr-2 label-name">Last Name:</label>
-                        <input type="text" id="last-name" class="name" required>
-                    </div>
-                    <div class="d-block d-md-flex my-2">
-                        <label for="email" class="font-weight-bold mr-2 label-name">email:</label>
-                        <input type="email" id="email" class="name" required>
-                    </div>
-                    <div class="d-block d-md-flex my-2">
-                        <label for="adress" class="font-weight-bold mr-2 label-name">Adress:</label>
-                        <input type="text" id="adress" class="name" required>
-                    </div>
-                    <div class="d-block d-md-flex my-2">
-                        <label for="number" class="font-weight-bold mr-2 label-name">Phone Number:</label>
-                        <input type="number" id="number" class="name" required>
-                    </div>
+                <div class="registration px-3">
+                    <table class="container-fluid">
+                        <tr class="row border-top py-2 bg-warning">
+                            <th class="col-2">Ticket</th>
+                            <th class="col-2 border-left">General</th>
+                            <th class="col-2 border-left">VIP</th>
+                            <th class="col-3 border-left">Platinum</th>
+                            <th class="col-3 border-left">Side Platinum</th>
+                        </tr>
+                        <tr class="row border-top">
+                            <th class="col-2 my-auto">1 day</th>
+                            <th class="col-2 border-left">
+                                <label for="opt1" class="text-danger d-block">120.00$</label>
+                                <input type="radio" name="day1" id="opt1">
+                            </th>
+                            <th class="col-2 border-left">
+                                <label for="opt2" class="text-danger d-block">240.00$</label>
+                                <input type="radio" name="day1" id="opt2">
+                            </th>
+                            <th class="col-3 border-left">
+                                <label for="opt3" class="text-danger d-block">360.00$</label>
+                                <input type="radio" name="day1" id="opt3">
+                            </th>
+                            <th class="col-3 border-left">
+                                <label for="opt4" class="text-danger d-block">500.00$</label>
+                                <input type="radio" name="day1" id="opt4">
+                            </th>
+                        </tr>
+                        <tr class="row border-top">
+                            <th class="col-2 my-auto">2 days</th>
+                            <th class="col-2 border-left">
+                                <label for="opt5" class="text-danger d-block">240.00$</label>
+                                <input type="radio" name="day2" id="opt5">
+                            </th>
+                            <th class="col-2 border-left">
+                                <label for="opt6" class="text-danger d-block">480.00$</label>
+                                <input type="radio" name="day2" id="opt6">
+                            </th>
+                            <th class="col-3 border-left">
+                                <label for="opt7" class="text-danger d-block">720.00$</label>
+                                <input type="radio" name="day2" id="opt7">
+                            </th>
+                            <th class="col-3 border-left">
+                                <label for="opt8" class="text-danger d-block">960.00$</label>
+                                <input type="radio" name="day2" id="opt8">
+                            </th>
+                        </tr>
+                        <tr class="row border-top">
+                            <th class="col-2 my-auto">3 days</th>
+                            <th class="col-2 border-left">
+                                <label for="opt9" class="text-danger d-block">360.00$</label>
+                                <input type="radio" name="day3" id="opt9">
+                            </th>
+                            <th class="col-2 border-left">
+                                <label for="opt10" class="text-danger d-block">720.00$</label>
+                                <input type="radio" name="day3" id="opt10">
+                            </th>
+                            <th class="col-3 border-left">
+                                <label for="opt11" class="text-danger d-block">1080.00$</label>
+                                <input type="radio" name="day3" id="opt11">
+                            </th>
+                            <th class="col-3 border-left">
+                                <label for="opt12" class="text-danger d-block">1440.00$</label>
+                                <input type="radio" name="day3" id="opt12">
+                            </th>
+                        </tr>
+                    </table>
                 </div>
 
                 <div class="my-5 separator">
