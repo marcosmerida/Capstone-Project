@@ -48,7 +48,7 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/marcosmerida)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/marcos-merida-219437206/)
 
-# Acknowledgment
+## Acknowledgment
 
 The original page and design is a creation of Cindy Shin.
 
