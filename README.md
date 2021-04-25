@@ -20,17 +20,26 @@ In this case, I tried to follow all the guidelines given, including typographies
 
 ## Instalation
 
-1. Download the ZIP 
+To get a local copy up and running follow these simple example steps.
+- Open terminal
+- Clone this project by command git clone https://github.com/marcosmerida/Capstone-Project/tree/Test
+- cd capstone-project folder
+- Open index.html in browser
 
-![screenshot](./resources/screenshot4.png) 
+## Getting Started 
+- Index.html is the main marke up that will show as the first page in the browser .
+- In styles folder you will find the css files that contain all applicated designing on this project .
+- resources folder contain most of pictures that has been in use for this project
 
-2. Please locate these two files that are inside of the folder called "styles"
- 
-![screenshot](./resources/screenshot6.png)
+### Prerequisites
 
-3. Now please open the files index.html, about.html, and tickets.html in your code editor and make sure that these files are linked in the corresponding section.
+- IDE to edit and run the code (We've used Visual Studio Code 🔥).
 
-![screenshot](./resources/screenshot5.png)
+### Usage
+
+- For anyone who wants to practice HTML5 and Bootstrap responsive design.
+- How to apply responsive desing using Bootstrap and good practices.
+
 
 ## Authors
 
