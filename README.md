@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Acknowledgment
 
-The original page and design is a creation of Cindy Shin.
+The original page and design is a creation of Cindy Shin.<br>
 [Original page Link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## Show your support
