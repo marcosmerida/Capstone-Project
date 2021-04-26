@@ -84,8 +84,7 @@ body {
 }
 
 .img1-container {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(214, 105, 85, 0.75),
       rgba(214, 105, 85, 0.75)
     ),
@@ -96,8 +95,7 @@ body {
 }
 
 .img2-container {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(214, 105, 85, 0.75),
       rgba(214, 105, 85, 0.75)
     ),
@@ -226,11 +224,31 @@ body {
     font-size: 3vw;
   }
 
+  .subtitle3,
+  .title1 {
+    font-family: Filson Pro, sans-serif;
+  }
+
+  .subtitle3 {
+    color: #575757;
+  }
+
+  .subtitle1 {
+    font-family: Lato, sans-serif;
+    color: #ff4f38;
+  }
+
   .title1 {
     font-size: 5vw;
+    background-image: linear-gradient(to right, #a80c0a, #ff4f38);
+    color: transparent;
+    -webkit-background-clip: text;
   }
 
   .subtitle2 {
+    font-family: Lato, sans-serif;
+    border: 3px solid white;
+    line-height: 4vw;
     font-size: 1.2vw;
   }
 
@@ -240,6 +258,8 @@ body {
   }
 
   .location-title {
+    font-family: Lato, sans-serif;
+    color: #838383;
     font-size: 1.5vw;
   }
 
@@ -273,7 +293,7 @@ body {
   }
 
   table {
-    font-family: Lato, sans-serif;  
+    font-family: Lato, sans-serif;
   }
 
   .title-entry {
@@ -290,8 +310,7 @@ body {
   }
 
   .img1-container {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(214, 105, 85, 0.3),
         rgba(214, 105, 85, 0.3)
       ),
@@ -301,8 +320,7 @@ body {
   }
 
   .img2-container {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(214, 105, 85, 0.3),
         rgba(214, 105, 85, 0.3)
       ),
