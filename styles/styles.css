@@ -148,6 +148,10 @@ body {
   width: 100%;
 }
 
+.file1 {
+  background-color: #ebebeb;
+}
+
 .registration {
   border: silver 5px solid;
   border-width: 5px 5px 5px 5px;
@@ -268,6 +272,10 @@ body {
     font-size: 5vw;
   }
 
+  table {
+    font-family: Lato, sans-serif;  
+  }
+
   .title-entry {
     font-size: 1.5vw;
   }
@@ -301,6 +309,10 @@ body {
       url(/resources/aboutimg2.jpg);
     height: 20vw;
     width: 40vw;
+  }
+
+  .file1 {
+    background-color: #ebebeb;
   }
 
   /* FOOTER */
