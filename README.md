@@ -27,9 +27,9 @@ To get a local copy up and running follow these simple example steps.
 - Open index.html in browser
 
 ## Getting Started 
-- Index.html is the main marke up that will show as the first page in the browser .
-- In styles folder you will find the css files that contain all applicated designing on this project .
-- resources folder contain most of pictures that has been in use for this project
+- Index.html is the main file that will show as the first page in the browser.
+- In the styles folder, you will find the CSS files that contain all applicable designs on this project.
+- resources folder contains most of the pictures that have been in use for this project.
 
 ### Prerequisites
 
@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 - For anyone who wants to practice HTML5 and Bootstrap responsive design.
-- How to apply responsive desing using Bootstrap and good practices.
+- How to apply responsive design using Bootstrap and good practices.
 
 
 ## Authors
@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Acknowledgment
 
-The original page and design is a creation of Cindy Shin.<br>
+The original page and design are a creation of Cindy Shin.<br>
 [Original page Link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## Show your support
