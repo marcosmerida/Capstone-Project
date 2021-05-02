@@ -17,6 +17,10 @@ body {
   border: none;
 }
 
+#dropdownbutton:focus {
+  box-shadow: none;
+}
+
 /* START OF MAIN PAGE */
 
 .first-section {
